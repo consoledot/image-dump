@@ -1,0 +1,32 @@
+{
+  "name": "imagedump",
+  "version": "1.0.0",
+  "description": "like unsplash",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/consoledot/image-dump.git"
+  },
+  "keywords": [
+    "image",
+    "dump"
+  ],
+  "author": "abimbola oladele",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/consoledot/image-dump/issues"
+  },
+  "homepage": "https://github.com/consoledot/image-dump#readme",
+  "dependencies": {
+    "cloudinary": "^1.24.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.14"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
