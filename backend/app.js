@@ -14,7 +14,7 @@ mongoose.connect(process.env.DATABASE_URL,{
     useFindAndModify:true
 })
 const db = mongoose.connection
-db.on("errpr", (error)=>console.log(error))
+db.on("error", (error)=>console.log(error))
 db.on("open", ()=> console.log("Connected to Database"))
 
 cloudinary.config({
